@@ -42,7 +42,9 @@ $(document).ready(function() {
 
       //ajax api call
     $.ajax({
+      //sets the url to the queryURL variable
       url: queryURL,
+      //passes the GET  method in the call
       method: "GET"
     })
       .then(function(response) {

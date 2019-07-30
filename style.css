@@ -1,36 +1,43 @@
+/*Sets font of body to 18 pixels with arial as the font and the font is in sans-serif. Also sets the background color to white */
 body {
   font: 18px arial, sans-serif;
   background: #eee;
 }
 
+/*sets the id animals to a width of 70% */
 #animals {
   width: 70%;
 }
 
+/*sets the animal-item class to float left and add 10px of padding*/
 .animal-item {
   float: left;
   padding: 10px;
 }
 
+/* sets any form to float right with a width of 30% of the body/container if applicable and 20px of padding */
 form {
   float: right;
   width: 30%;
   padding: 20px;
 }
 
+/*sets any label in the html to be displayed as a block, sets margin bottom and gives the font some weight */
 label {
   display: block;
   margin-bottom: 10px;
   font-weight: 700;
 }
 
+/* sets input to type of text. Sets width to 100% of container. Sets height to 30px, set margin bottom to 10px and font size to 18px */
 input[type="text"] {
   width: 100%;
   height: 30px;
   margin-bottom: 10px;
   font-size: 18px;
 }
-
+/* sets button input to a submit type. Sets padding and margin, size, color, sets the cursor to pointer,
+ sets background color, removes border and sets the border radius to 5px and box shadow */
 button,
 input[type="submit"] {
   padding: 5px 20px;
@@ -44,11 +51,13 @@ input[type="submit"] {
   box-shadow: 2px 2px 3px #bbb;
 }
 
+/*sets button hover to input type submit with hover. Sets background color */
 button:hover,
 input[type="submit"]:hover {
   background: #334e4d;
 }
 
+/*sets button active background color */
 button.active {
   background: #334e4d;
 }

@@ -1,30 +1,46 @@
+<!--Identifies the doctype to html-->
 <!DOCTYPE html>
+<!--Sets html language to be used-->
 <html lang="en">
-
+<!--Start of head part of html-->
 <head>
+  <!--sets the character set to UTF-8-->
   <meta charset="UTF-8">
+  <!--Sets the title-->
   <title>Animaltastic</title>
+  <!--set the style sheet to style.css note this link means there is no subfolder and the stylesheet should be at the same level as the html file-->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <!--End of header part of html-->
 </head>
 
+<!--Start of the body html-->
 <body>
-
+  <!--start of div with an id of animal-buttons-->
   <div id="animal-buttons">
-
+<!--end of div-->
   </div>
 
+  <!--Opens a form with an id of animal-form-->
   <form id="animal-form">
+    <!--sets a label for the id animal-input with a text of Add an animal-->
     <label for="animal-input">Add an animal</label>
-    <input type="text" id="animal-input"><br>
+    <!--Sets the input type of the form as text with an id of animal-input-->
+    <input type="text" id="animal-input"><br><!--add a break-->
+    <!-- sets the input id to add-animal with a type of submit and a value of Submit-->
     <input id="add-animal" type="submit" value="Submit">
+    <!--End of form-->
   </form>
-
+  <!--Start of div with an id of animals-->
   <div id="animals">
-
+  <!--End of div-->
   </div>
 
+  <!--Sets the script with a source for jquery-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!--Sets the script file to app.js-->
   <script src="app.js"></script>
-  
+
+  <!--End of body portion of html-->
 </body>
+<!--End of html part-->
 </html>

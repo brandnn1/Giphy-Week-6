@@ -38,6 +38,7 @@ $(document).ready(function() {
     //sets a variable of type to equal the data-type of the button clicked
     var type = $(this).attr("data-type");
     //sets the queryURL to the api call with the type variable inserted.
+    //attempting to get this url to be passed secure. 
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&limit=100";
 
       //ajax api call
